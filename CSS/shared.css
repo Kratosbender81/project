@@ -27,7 +27,7 @@ nav {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'open sans, sans-serif';
+    font-family: 'open sans', sans-serif;
 }
 
 h1 {
@@ -112,9 +112,9 @@ section {
     margin-left: -15px;
 }
 
-.clearfix::after,
-.container::after,
-.navbar::after {
+.clearfix:after,
+.container:after,
+.navbar:after {
     clear: both;
     display: table;
     content: "";
@@ -150,7 +150,7 @@ section {
   HOME SECTION STYLES
   =============================================*/
   #home {
-      background: url(C:/Users/Amanda/Desktop/project/images/chihuahuas.jpg) no-repeat 50% 50%;
+      background: url(../images/chihuahuas.jpg) no-repeat 50% 50%;
       background-attachment: fixed;
       -webkit-background-size: cover;
       -moz-background-size: cover;
@@ -197,16 +197,16 @@ section {
   /*==============================================
     Contact STYLES
     ==============================================*/
-    .flex-comntainer {
-        display: -webkit-flex;
-        display: flex;
-        flex-wrap: wrap;
-        padding: 10px;
-        border-radius: 8px;
-        margin: 0px auto;
-        background-color: rgba(100, 65, 0, .3);
-        box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.5);
-    }
+.flex-comntainer {
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 0px auto;
+    background-color: rgba(100, 65, 0, .3);
+    box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.5);
+}
 
 #contact {
     background-color: #f5f3f3;
@@ -284,7 +284,7 @@ section {
 }
 
 .reservation input[type="text"]:hover {
-    box-shadow: 0 0 18px rgba(100, 65, 0, .8);
+    box-shadow: 0 0 10px rgba(100, 65, 0, .8);
 }
 
 .form-spacer {
@@ -292,7 +292,7 @@ section {
 }
 
 .terms {
-    margin: 30px 1px 0 0;
+    margin: 23px 41px 0 0;
     margin-top: 13%;
     padding-left: 52px;
     font-size: 14px;
@@ -340,6 +340,8 @@ section {
   ==========================================================*/
 #footer {
     background-color: rgba(0, 0, 0, 0.4);
+    color: #000;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4);
     padding: 20px 50px 20px 50px;
     text-align: right;
 }
